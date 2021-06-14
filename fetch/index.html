@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+  <head>
+    
+    <title>
+      Test Download
+    </title>
+
+  </head>
+  
+  <body style="background-color: black;">
+    
+    <button id="initiate-download">
+      Download Files
+    </button>
+    <script>
+      const downloadButtonId = "initiate-download"
+      const fileServerBaseUrl ="http://localhost:3000/"
+      const urlListFilename = "urls.json"
+      const directoryEndpoint = "test-files"
+    </script>
+    
+    <script src="LastFive.js"></script>
+    <script src="DownloadQueue.js"></script>
+    <script src="Downloader.js"></script>
+    <script src="index.js"></script>
+  
+  </body>
+</html>
