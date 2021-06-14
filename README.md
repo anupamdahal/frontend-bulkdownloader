@@ -17,3 +17,9 @@ To install http-server use the following command
 ```
 npm install http-server -g
 ```
+
+Finally server the application in another port using
+
+```
+http-server -p 3001
+```
