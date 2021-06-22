@@ -1,6 +1,6 @@
 <!DOCTYPE html>
   <head>
-    
+
     <title>
       Test Download
     </title>
@@ -12,13 +12,15 @@
     <button id="initiate-download">
       Download Files
     </button>
+    <!-- <a href="/try.txt" Content-Diposition="inline">Try</a> -->
     <script>
       const downloadButtonId = "initiate-download"
-      const fileServerBaseUrl ="http://localhost:3000/"
+      const fileServerBaseUrl ="http://192.168.56.1:3000"
       const urlListFilename = "urls.json"
       const directoryEndpoint = "test-files"
     </script>
     
+    <script src="downloadConstants.js"></script>
     <script src="LastFive.js"></script>
     <script src="DownloadQueue.js"></script>
     <script src="Downloader.js"></script>

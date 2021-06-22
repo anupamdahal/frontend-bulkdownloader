@@ -3,6 +3,10 @@ class DownloadQueue{
     this.queue = []
   }
 
+  length(){
+    return this.queue.length
+  }
+
   /**
    * return equal or less than equal
    * @param {number} size 

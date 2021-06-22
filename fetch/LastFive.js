@@ -24,9 +24,6 @@ class LastFive{
       }
     })
 
-    console.log((itr && sum) ?
-    (sum/itr) : null)
-
     return (itr && sum) ?
       (sum/itr) : null
   }
